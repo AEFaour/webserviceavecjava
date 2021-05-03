@@ -1,13 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Home</title>
 </head>
 <body>
-<h1>Bonjour</h1>
+<h1>Générer le fichier <a href="http://localhost:8081/ws-soup-simple/convertir">WSDL</a></h1>
 
 </body>
 </html>

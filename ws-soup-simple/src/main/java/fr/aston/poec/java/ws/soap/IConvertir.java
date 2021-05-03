@@ -1,11 +1,15 @@
 package fr.aston.poec.java.ws.soap;
 
+import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 @WebService
 public interface IConvertir {
 	
-	public double celsiusFahrenheit(double celseus);
-	public double fahrenheitCelsius(double fahrenheit);
+	@WebMethod
+	double celsiusFahrenheit(double celsius);
+
+	@WebMethod(exclude = true)
+	double kilometreMiles(double kilometre);
 
 }
